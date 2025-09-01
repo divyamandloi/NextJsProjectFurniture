@@ -9,7 +9,7 @@ export default function Header() {
             <div className='border-b-1 border-[#ccc] py-2 mt-2'>
                 <div className='max-w-[1320px] text-[10px] mx-auto flex justify-between'>
                     <div>Contact us 24/7 : +91-98745612330 / furnitureinfo@gmail.com</div>
-                    <div><a href=''>Login</a>  /<a href=''> Register</a></div>
+                    <div><Link href='/login'>Login</Link>  /<a href=''> Register</a></div>
                 </div>
             </div>
 
